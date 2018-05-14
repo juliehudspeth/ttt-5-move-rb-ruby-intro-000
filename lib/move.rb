@@ -10,10 +10,8 @@ end
   converted_input = user_input.to_i - 1
 end
 
-def move (array, index, array = update_array_at_with)
-  array[index] = value
+def move (board, index, token = "X")
+  board[index] = token
 end
 
-def update_array_at_with(array, index, value)
-  array[index] = value
-end
+
