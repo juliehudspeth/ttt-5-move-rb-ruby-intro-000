@@ -3,7 +3,7 @@
   converted_input = user_input.to_i - 1
 end
 
-def move (array, index, value)
+def move (array, index, update_array_at_with)
   puts "value", array
 end
 
